@@ -44,6 +44,7 @@ void print(board &temp){
 	}
 	cout<<endl<<endl;
 }
+//function to check whther queens are in valid position.
 bool isvalid(board &temp){
 	int q=temp.queens,p=0,i,i2;
 	for(i=0;i<8;i++){
@@ -68,7 +69,8 @@ bool isvalid(board &temp){
 	}
 	return true;
 }
-
+/*utility function to genaerate all the possible next states for the given state of the board and if they are valid, they are added
+to the queue.*/
 void states(queue<board> &q1){
 	board temp;
 	bool oc=true;
@@ -94,6 +96,7 @@ void states(queue<board> &q1){
 		temp.mat[q][i]=0;
 	}
 }
+//main function for intiation of the problem.
 int main(){
 	board b1;
 	initialize(b1);
