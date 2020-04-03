@@ -11,7 +11,7 @@ Question:Given a set of students divide them into 3 groups such that the diversi
 	Inteegers 0,1 and 2 representing group number of that particular student.
 4.Fitness score:
 	The fitness of each population is calculated by looking at the standard deviation in each group of the three groups.
-	The population with lowest fitness score is a better solution.
+	The population chromosme with lowest fitness score is a better solution.
 5.Selection operator:
 	Selection is done based on the lowest fitness score.
 6.Crossover and Mutation operator:
