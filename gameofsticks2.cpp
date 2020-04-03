@@ -127,8 +127,8 @@ int main(){
 					turn=0;
 				}
 				if(n==1){
-					if(turn) cout<<"AI"<<turn+1<<" won the game\n";
-					else cout<<"AI"<<turn+1<<" won the game\n";
+					if(turn) cout<<"AI 1 won the game\n";
+					else cout<<"AI 2 won the game\n";
 					cout<<"press 1 to play again or zero to exit!:";
 					cin>>c;
 					break;
